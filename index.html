@@ -1,0 +1,111 @@
+<!--E-mail：1141869607@qq.com-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img {
+            display: block
+        }
+
+        .list-img-suit {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 15px;
+        }
+        .list-img-suit .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 31%;
+            height: 110px;
+            overflow: hidden;
+            margin-left: 3.5%;
+            margin-bottom: 3.5%;
+        }
+        .list-img-suit .item:nth-child(3n+1) {
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <!--html块-->
+    <div class="list-img-suit" id="imgList">
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535377981&di=a62a249877793453a8d790a0a4341862&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F21%2F42%2F11%2F59A58PICcB5_1024.jpg" id="img" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534783219762&di=3676493e4cd1c7dd169b129a619d8b78&imgtype=0&src=http%3A%2F%2Fimg.article.pchome.net%2F00%2F43%2F87%2F47%2Fpic_lib%2Fs960x639%2Fkuanping025s960x639.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534783152941&di=863b2002d6b215a7f31ca5197a74673d&imgtype=0&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Ff636afc379310a5531e980ccba4543a98226103c.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534783131991&di=e82defda9a6b48baaf21cf59959c8aa3&imgtype=0&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fb21c8701a18b87d600b87f290a0828381f30fd0a.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534783065205&di=05556024bbc849f41c847e2ef8e43528&imgtype=0&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F8d5494eef01f3a29a2a71cae9225bc315c607c67.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534783043292&di=0e3223d2291a654e5d7efff671817aac&imgtype=0&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa9d3fd1f4134970a3776841b98cad1c8a7865df8.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535378223&di=3e8926d9a2d5c056b63252a18ecbbfcb&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F6%2F56e3e7ece76e9.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534770995294&di=776b5d7e99a8f2bd8c58820e79ae14d5&imgtype=0&src=http%3A%2F%2Fd.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F3bf33a87e950352aadfff8c55f43fbf2b3118b65.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534783313450&di=5c800c31b6db0ad9cb90a250b5c10c3b&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1411%2F16%2Fc3%2F40981365_40981365_1416148880477.jpg" class="item-img" alt="">
+        </div>
+        <div class="item">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534783377780&di=782045f22d63df6270b2049fe34d7527&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201407%2F09%2F090437norhhrh7ldt00qdc.jpg" class="item-img" alt="">
+        </div>
+    </div>
+</div>
+
+<script>
+    // 当页面载入完毕后执行，注：为了能正常获取到img尺寸的写法
+    window.onload = function () {
+        var id = 'imgList' // 模块id
+        boxImgSuit(id)
+    };
+    // 图片自适应盒子，参数为列表id
+    function boxImgSuit(id) {
+        var img = document.getElementById(id).getElementsByClassName('item') // 获取doc
+        for (var i = 0; i < img.length; i++) {
+            var imgHtml = img[i].getElementsByClassName('item-img')[0] // 获取到图片
+            var imgHeight = imgHtml.height // 获取到图片高度
+            var imgWidth = imgHtml.width // 获取图片宽度
+            img[i].style.height = img[i].offsetWidth + 'px' // 配置盒子高度
+            var itemHeight = img[i].offsetHeight // 获取图片盒子的高度
+            var itemWidth = img[i].offsetWidth // 获取图片盒子宽度
+
+            if (imgWidth > imgHeight) { // 判断图片宽度是否大于高度
+                imgHtml.height = itemHeight // 给图片高度 100%
+            } else if (imgWidth < imgHeight) { // 判断图片宽度是否小于高度
+                imgHtml.width = itemWidth // 给图片宽度 100%
+            } else { // 图片是正方形
+                imgHtml.height = itemHeight // 给图片高度 100%
+                imgHtml.width = itemWidth // 给图片宽度 100%
+            }
+        }
+        // 监听窗口变化
+        window.onresize = function () {
+            boxImgSuit(id)
+        }
+    }
+
+</script>
+</body>
+</html>
